@@ -6,5 +6,12 @@
 
   "DeliverToGitHubPackages": {
     "branches": [ " NonExistingBranch" ]
+  },
+
+  "incrementalBuilds": {
+    "mode": "modifiedApps",
+    "onPush": true,
+    "onPull_Request": true,
+    "retentionDays": 30
   }
 }
